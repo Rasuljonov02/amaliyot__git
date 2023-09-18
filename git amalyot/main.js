@@ -7,10 +7,11 @@ const btn2 = document.querySelector(".btn2");
 btn1.addEventListener("click", () => {
 	if (step.value !== "" && time.value == "") {
 		console.log(step.value);
-		number.innerText = +step.value + +number.innerText;
+		number.innerText = eval(`${step.value} + ${number.innerText}`);
+		// +step.value + +number.innerText
 	} else {
 		setInterval(() => {
-			number.innerText = +step.value + +number.innerText;
+			number.innerText = eval(`${step.value} + ${number.innerText}`);
 		}, time.value * 1000);
 	}
 });
@@ -18,10 +19,10 @@ btn1.addEventListener("click", () => {
 btn2.addEventListener("click", () => {
 	if (step.value !== "" && time.value == "") {
 		console.log(step.value);
-		number.innerText = +number.innerText - +step.value;
+		number.innerText = eval(`${number.innerText} - ${step.value}`);
 	} else {
 		setInterval(() => {
-			number.innerText = +number.innerText - +step.value ;
+			number.innerText = eval(`${number.innerText} - ${step.value}`);
 		}, time.value * 1000);
 	}
 });
