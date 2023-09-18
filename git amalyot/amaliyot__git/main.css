@@ -9,6 +9,7 @@ body {
 	align-items: center;
 	justify-content: center;
 	flex-wrap: wrap;
+	background: #ffcdb2;
 }
 
 .container {
@@ -17,6 +18,20 @@ body {
 	gap: 30px;
 	flex-wrap: wrap;
 }
+.btn {
+	background: #e5989b;
+	transition: all 0.9;
+	border: none;
+	color: white;
+	border-radius: 10px;
+}
+.btn:active {
+	transform: scale(0.8);
+}
+.btn:hover {
+	background: #9c5f61;
+	color: wheat;
+}
 
 .number {
 	width: 100px;
@@ -24,6 +39,8 @@ body {
 	border: 1px solid #000;
 	display: grid;
 	place-items: center;
+	background: #ca6702;
+	border-radius: 10px;
 }
 
 input {
@@ -34,4 +51,9 @@ input {
 .btn {
 	width: 50px;
 	height: 50px;
+}
+
+.number:hover {
+	background: #bb3e03;
+	color: wheat;
 }
