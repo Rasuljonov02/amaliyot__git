@@ -12,7 +12,9 @@ body {
 	user-select: none;
 }
 * {
-	font-size: 20px;
+	font-size: 30px;
+	font-weight: bold;
+	letter-spacing: 5px;
 }
 .container {
 	display: flex;
@@ -53,12 +55,13 @@ input {
 	padding: 0 10px;
 	border-radius: 10px;
 	background: none;
+	color: white;
 	border: 2px solid wheat;
 }
 input::placeholder {
 	color: white;
 
-	font-size: 20px;
+	font-size: 30px;
 	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 .btn {
