@@ -10,6 +10,8 @@ body {
 	flex-wrap: wrap;
 	/* background: none; */
 	user-select: none;
+	box-sizing: border-box;
+	padding: 20px;
 }
 * {
 	font-size: 30px;
@@ -61,7 +63,7 @@ input {
 input::placeholder {
 	color: white;
 
-	font-size: 30px;
+	font-size: 25px;
 	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 .btn {
