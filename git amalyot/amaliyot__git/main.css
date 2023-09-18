@@ -130,3 +130,7 @@ h1 {
 		transform: translateX(25%);
 	}
 }
+
+input[type="number"]::-webkit-inner-spin-button {
+	display: none;
+}
