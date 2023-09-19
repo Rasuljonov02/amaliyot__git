@@ -2,16 +2,13 @@ body {
 	width: 100%;
 	height: 100vh;
 	margin: 0;
-	padding: 0;
 	box-sizing: border-box;
 	font-family: "Courier New", Courier, monospace;
 	display: grid;
 	place-items: center;
 	flex-wrap: wrap;
-	/* background: none; */
 	user-select: none;
-	box-sizing: border-box;
-	padding: 20px;
+	padding: 20px;;
 }
 * {
 	font-size: 30px;
@@ -23,11 +20,11 @@ body {
 	align-items: center;
 	gap: 30px;
 	flex-wrap: wrap;
+	margin-top: 150px;
 }
 .btn {
 	background: none;
 	transition: all 0.9;
-	border: none;
 	border: 2px solid wheat;
 	color: white;
 	border-radius: 10px;
